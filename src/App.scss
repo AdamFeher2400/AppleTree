@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 30px;
+}
+
+
+.content {
+  position: relative;
+  display: inline-block;
+  transform-origin: center bottom;
+
+  width: 600px;
+  height: 453.75px;
+  margin: 0 auto;
+  .Tree {
+
+    .apple {
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      z-index: 9;
+
+    }
+
+  }
+}
+
+.basket {
+  text-align: right;
+  display: inline-block;
+
+  .apples {
+    position: relative;
+
+    width: 200px;
+    float: right;
+    .apple {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+}
